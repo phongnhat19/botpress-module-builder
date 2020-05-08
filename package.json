@@ -6,7 +6,7 @@
   "main": "index.js",
   "author": "Botpress, Inc.",
   "license": "AGPL-3.0-only",
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "./node_modules/.bin/babel src --out-dir bin --extensions \".ts,.js\"",
     "watch": "./node_modules/.bin/babel src --watch --out-dir bin --extensions \".ts,.tsx\""
